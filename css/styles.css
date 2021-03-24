@@ -360,7 +360,9 @@ img {
   justify-content: space-between;
   margin-top: 16px;
 }
-
+.team-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .team-icon-link {
   display: flex;
   justify-content: center;
@@ -369,8 +371,7 @@ img {
   height: 44px;
   border-radius: 50%;
   fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-wrapper {
   padding: 30px 45px;
@@ -522,8 +523,7 @@ img {
   border-radius: 50%;
   fill: var(--secondary-color);
   background-color: rgba(255, 255, 255, 0.1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-link:hover,
